@@ -11,10 +11,10 @@ class App < Sinatra::Base
     @name = params[:name]
     @coach = params[:coach]
     @pg = params[:pg]
-    @sgs = params[:sgs]
-    @s = params[:s]
-    @name = params[:name]
-    @name = params[:name]
+    @sg = params[:sg]
+    @sf = params[:sf]
+    @pf = params[:pf]
+    @c = params[:c]
     erb :team
   end
 
